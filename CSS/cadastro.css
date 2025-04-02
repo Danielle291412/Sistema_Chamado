@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: #A5EAF6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 5px;
+    width: 40%;
+    height: 60%;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    border: 0px;
+}
+
+button{
+    background-color: rgba(189, 237, 255, 1);
+    color: black;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
