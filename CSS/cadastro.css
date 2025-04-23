@@ -15,6 +15,7 @@ form{
     background-color: #A5EAF6;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 40px;
     gap: 5px;
     width: 40%;
@@ -43,4 +44,12 @@ button{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 15px;   
 }
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    margin-top: 10px;
+}
+
