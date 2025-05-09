@@ -42,3 +42,24 @@ form{
     display: flex;
     flex-direction: column;
 }
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 10px;
+    background-color: rgb(167, 196, 243);
+
+    background-color:  rgb(167, 196, 243);
+    color: rgb(0, 0, 0);
+}
+
+#ajuste {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
