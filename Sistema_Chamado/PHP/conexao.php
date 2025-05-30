@@ -15,6 +15,7 @@ $conexao = new mysqli($servidor, $usuario, $senha, $bancodedados);
 
 //função para mostrar se a conexão deu errado//
 if ($conexao->connect_error) {
-    die("erro:" .$$conexao->connect_error);
+    die("error:" .$$conexao->connect_error);
 }
 ?>
+
