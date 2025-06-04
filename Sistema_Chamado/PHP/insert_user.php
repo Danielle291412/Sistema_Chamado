@@ -19,9 +19,12 @@ $insert = "INSERT INTO tb_user VALUES (null, '$nome', '$email', '$setor', '$senh
 
 $query = $conexao ->query($insert);
 
-if ($conexao ->query($insert) === TRUE) {
+if ($conexao ->query($insert)) {
     echo "<script>alert('Usuário Cadastrado com Sucesso!');
     location.href = '../cadastro.html'</script>";
+}else{
+    echo "<script>alert('Usuário ou Senha Incorreta'); history.back() </script>";
+
 }
 
 
